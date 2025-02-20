@@ -1,0 +1,242 @@
+# This lang file for NH-Utilities
+
+#Item Group
+itemGroup.nhutilities=NH Utilities
+itemGroup.metaItem=NHU Material
+itemGroup.metaBlock=NHU Block
+
+# Tooltips For NHU Logotype
+nhu.logotype.gt.logo=§6Added by §dNH Utilities
+nhu.author.prefix=§6Author:
+
+#Error
+nhutilities.null.name=§cError
+
+# Common Items
+item.GluttonyRing.name=GluttonyRing
+item.HungerRing.name=HungerRing
+item.TimeVial.name=TimeVial
+item.EternityVial.name=EternityVial
+item.LunchBoxPlus.name=Lunch Box Plus
+item.KamiRing.name=Kami Divine Ring
+item.WarpWardRing.name=Ring of Purification
+
+# Meta Item / Material
+item.MetaItem.4.name=Enriched Chaos Draconium Egg
+item.MetaItem.5.name=Enriched Ancient Draconium Egg
+item.MetaItem.6.name=No use at this time
+item.MetaItem.7.name=No use at this time
+item.MetaItem.101.name=No use at this time
+item.MetaItem.102.name=No use at this time
+item.MetaItem.103.name=No use at this time
+item.MetaItem.104.name=No use at this time
+item.MetaItem.113.name=No use at this time
+item.MetaItem.114.name=No use at this time
+item.MetaItem.115.name=No use at this time
+item.MetaItem.116.name=No use at this time
+item.MetaItem.117.name=No use at this time
+item.MetaItem.118.name=No use at this time
+item.MetaItem.119.name=No use at this time
+item.MetaItem.120.name=No use at this time
+item.MetaItem.121.name=No use at this time
+item.MetaItem.122.name=No use at this time
+item.MetaItem.123.name=No use at this time
+item.MetaItem.124.name=No use at this time
+item.MetaItem.125.name=No use at this time
+item.MetaItem.126.name=No use at this time
+item.MetaItem.127.name=No use at this time
+item.MetaItem.128.name=No use at this time
+item.MetaItem.129.name=No use at this time
+item.MetaItem.130.name=No use at this time
+item.MetaItem.131.name=No use at this time
+
+# Teleporter MK-II
+key.toggleTeleporterMKII=Toggle Enhanced Charm of Dislocation GUI
+info.teleporterInfBaubles.txt=Support putting in-any-baubles
+info.teleporterInfBaublesButton.txt=Support the use of-button-to open the baubles
+
+# Common Blocks
+block.ChaosDragonEgg.name=Chaos Dragon Egg
+block.AncientDragonEgg.name=Ancient Dragon Egg
+
+# Focus
+item.FocusTape.name=Wand Focus: Tape
+
+# Tc Fuel Rod Project
+info.fuelRod.tooltip.0=Durability: %s/%s
+info.fuelRod.tooltip.1=Has Mox Behaviour | MOX-coefficient: %d
+info.fuelRod.tooltip.2=base heat(heta/s): %d/%d/%d
+info.fuelRod.tooltip.3=base power(EU/t): %d/%d/%d
+item.MetaItem.0.name=Ichor Fuel Rod
+item.MetaItem.1.name=Radiance Fuel Rod
+item.MetaItem.2.name=Ichor Droplet
+item.MetaItem.3.name=Primordial Pearl Dust
+item.RodRadianceUranium.name=Fuel Rod (Excited Radiance Uranium)
+item.RodRadianceUranium2.name=Dual Rod (Excited Radiance Uranium)
+item.RodRadianceUranium4.name=Quad Rod (Excited Radiance Uranium)
+item.RodRadianceUraniumDepleted.name=Fuel Rod (Depleted Excited Radiance Uranium)
+item.RodRadianceUraniumDepleted2.name=Dual Fuel Rod (Depleted Excited Radiance Uranium)
+item.RodRadianceUraniumDepleted4.name=Quad Fuel Rod (Depleted Excited Radiance Uranium)
+item.RodPrimordialPearlPlutonium.name=Fuel Rod (Super Excited Primordial Pearl Plutonium)
+item.RodPrimordialPearlPlutonium2.name=Dual Rod (Super Excited Primordial Pearl Plutonium)
+item.RodPrimordialPearlPlutonium4.name=Quad Rod (Super Excited Primordial Pearl Plutonium)
+item.RodPrimordialPearlPlutoniumDepleted.name=Fuel Rod (Depleted Super Excited Primordial Pearl Plutonium)
+item.RodPrimordialPearlPlutoniumDepleted2.name=Dual Fuel Rod (Depleted Super Excited Primordial Pearl Plutonium)
+item.RodPrimordialPearlPlutoniumDepleted4.name=Quad Fuel Rod (Depleted Super Excited Primordial Pearl Plutonium)
+
+# Tooltips For Time Vial
+text.EternityVial.details_0=Eternity
+text.TimeVial.tips=§ftime: §6%d hours §d%d minutes §a%d seconds 
+text.TimeVial.details_0=Possesses 6 acceleration gradients.
+text.TimeVial.details_1=Default adjustable range [4->128].
+text.TimeVial.details_2=Can be modified in the configuration to [8->256].
+text.TimeVial.details_3=Checks every 30 seconds if the player has multiple time vials.
+text.TimeVial.details_4=When multiples are present, executes time accumulation, adding the most time to one vial.
+text.TimeVial.details_5=While setting the remaining time vials to:
+text.TimeVial.details_6=Uh...114514.   -11 hours -45 minutes -14 seconds.
+text.TimeVial.details_7=Can be modified without limits in the config file.
+text.TimeVial.details_8=The rules for GT machine acceleration are as follows:
+text.TimeVial.details_9=By default, the acceleration method is applied by accumulating ticks if Shift is not held down.
+text.TimeVial.details_10=Machines require processing time time and time must be >= 2 ticks.
+text.TimeVial.details_11=Executes time + acceleration multiplier * discount (default 0.8f), which is adjustable.
+text.TimeVial.details_12=In simple terms, adds the corresponding time to the machine's working time.
+text.TimeVial.details_13=Configuration file notes
+text.TimeVial.details_14=Allows adjusting the volume of the vial sounds and whether to enable number textures, i.e., 8x or 16x patterns.
+text.TimeVial.details_15=If unsure, do not modify. enableLogInfo = true
+
+# Information Helper
+infoHelper.NHUtilities.txt_0=§6====§f[§dHold
+infoHelper.NHUtilities.txt_1=§dfor Details§f]§6====
+infoHelper.NHUtilities.key_ctrl=§bCtrl
+infoHelper.NHUtilities.key_shift=§bShift
+
+# Research
+tc.research_category.NHUTILITIES=GregThaumcality
+
+tc.research_name.THAUMICEBF=Thaumic Electric Blast Furnace
+tc.research_text.THAUMICEBF=Burning Vigorously
+nhu.research.thaumicebf_1=With your limited knowledge of Thaumcraft, you discover that wand focus can fuse with corresponding Greg Tech machines. With a mix of excitement and trepidation, you attempt to fuse the industrial blast furnace into a more advanced version. And obviously, you succeeded.
+
+tc.research_name.SHADOWMETALFUELROD=Fuel Rod (Excited Radiance Uranium)
+tc.research_text.SHADOWMETALFUELROD=Make Thaumcraft Great Again!
+nhu.research.shadowmetalfuelrod_1=For a long time, you've been puzzled by the immense energy released by nuclear power. It seemed too crude, almost like a blasphemous creation. After a nuclear explosion accident, the air was filled with an energy you were familiar with... You attempt to harness this massive energy within the interplay of light and shadow, though it remains somewhat unstable.
+
+tc.research_name.ICHORIUMFUELROD=Fuel Rod (Super Excited Primordial Pearl Plutonium)
+tc.research_text.ICHORIUMFUELROD=Is This Step Truly Necessary?
+nhu.research.ichoriumfuelrod_1=You were very pleased with your previous creation. But you are almost obsessively driven to push the boundaries further. A touch of plutonium, a drop of divine ichor, a sprinkle of pearl essence, and a dash of technological components fused together. What will they create? You ponder.
+
+tc.research_name.FOCUSTAPE=Wand Focus:Tape
+tc.research_text.FOCUSTAPE=Now More of it!
+nhu.research.focustape_1=You were tired of fixing the hatch.EMT focus is too bad.So you invite this.
+
+tc.research_name.WARPWARDRING=Ring of Purification
+tc.research_text.WARPWARDRING=Banned thaumer from industrial zone?
+nhu.research.warpwardring_1=Are you still worried about not being able to enter the industrial zone? Are you concerned that mushrooms might grow inside your teammate's blast furnace? Are you afraid that a Wither might pop up at home from time to time? With just a bit of map running and an EV field generator, infused with essential, you can obtain this ring that prevents all warp events. (When wearing this ring, placing some GT blocks has a chance to clear part of warp.)
+
+# Tooltips for TC-EBF
+nhu.tcebf.machine=Thaumic Electric Blast Furnace
+nhu.tcebf.machine.type=Blast Furnace
+nhu.tcebf.machine.info_1=Controller block for the Thaumic Electric Blast Furnace
+nhu.tcebf.machine.info_2=Provide up to 4 parallels || 80% EU required || +100% speed up
+nhu.tcebf.machine.info_3=(If you don't like this texture, you can change it by using screwdriver)
+nhu.tcebf.machine.info_4=Node acceleration formula
+nhu.tcebf.machine.info_5=Node consumption formula
+nhu.tcebf.machine.info_6=Coil acceleration and overclocking are the same as EBF
+nhu.tcebf.machine.info_7=It's watching you all the time...
+nhu.tcebf.machine.build.helper_1=Front bottom
+nhu.tcebf.machine.build.helper_2=Heat Proof Machine Casing
+nhu.tcebf.machine.build.helper_3.1=Heating Coils
+nhu.tcebf.machine.build.helper_3.2=Two middle Layers
+nhu.tcebf.machine.build.helper_4=Any bottom layer casing
+nhu.tcebf.machine.build.helper_5=Any bottom layer casing
+nhu.tcebf.machine.build.helper_6=Top middle
+nhu.tcebf.machine.build.helper_7=Any bottom layer casing
+nhu.tcebf.machine.build.helper_8=Any bottom layer casing
+nhu.tcebf.machine.build.helper_9=Any bottom layer casing
+nhu.tcebf.machine.build.helper_10=Fluid outputs, Any bottom layer casing
+nhu.tcebf.machine.build.helper_11=Pollution gases (CO2/CO/SO2), Any top layer casing
+nhu.tcebf.machine.build.helper_12=Pollution gas output amount scales with Muffler Hatch tier
+
+# Tooltips For Egg Machine
+nhu.eggMachine.tier.EV=Basic Egg Energy Absorber
+nhu.eggMachine.tier.IV=Intermediate Egg Energy Absorber
+nhu.eggMachine.tier.LuV=Advanced Egg Energy Absorber
+nhu.eggMachine.tier.ZPM=Epic Egg Energy Absorber
+nhu.eggMachine.tier.UV=Legendary Egg Energy Absorber
+nhu.eggMachine.tier.UHV=Divine Egg Energy Absorber
+nhu.eggMachine.tier.UEV=Stellar Egg Energy Absorber
+nhu.eggMachine.tier.UIV=Eternal Egg Energy Absorber
+nhu.eggMachine.tier.UMV=Cosmic Egg Energy Absorber
+nhu.eggMachine.tier.UXV=Singularity Egg Energy Absorber
+# Humorous...
+nhu.eggMachine.tier.MAX=Ultimate Invincible Legendary Stellar Eternal Cosmic Singularity Egg Energy Absorber
+nhu.eggMachine.tier.ULV=Egg Machine
+nhu.tooltips.eggMachine.type=§fMachine Type: §6Egg machine energy
+nhu.tooltips.eggMachine.line=§e-----------------------------------------
+nhu.tooltips.eggMachine.info0=§6Lost all other functions, only generates power from eggs!!
+nhu.tooltips.eggMachine.info1=§6Use a screwdriver to switch output voltage, amperage is based on current power.
+nhu.tooltips.eggMachine.info2=§6Use wire cutters to enable wireless mode, requires machine tier of at least §cUHV.
+nhu.tooltips.eggMachine.info3=§6Directly outputs energy to the wireless power grid, each operation takes 256 ticks.
+nhu.tooltips.eggMachine.info4=§dDifferent eggs provide different efficiencies:
+nhu.tooltips.eggMachine.info5=§d- Creeper Egg: 128x
+nhu.tooltips.eggMachine.info6=§d- Ender Dragon Egg: 512x
+nhu.tooltips.eggMachine.info7=§d- Chaos Dragon Egg: 2048x
+nhu.tooltips.eggMachine.info8=§d- Infinite Egg: 8192x
+nhu.tooltips.eggMachine.info9=§d- Ancient Ender Dragon Egg: 32768x
+nhu.tooltips.eggMachine.info10=§bDifferent upgrades placed inside the machine provide different efficiencies:
+nhu.tooltips.eggMachine.info11=§b- Dragon Heart: 2x
+nhu.tooltips.eggMachine.info12=§b- Dragon Core: 4x
+nhu.tooltips.eggMachine.info13=§b- Wyvern Core: 8x
+nhu.tooltips.eggMachine.info14=§b- Awakened Dragon Core: 16x
+nhu.tooltips.eggMachine.info15=§b- Chaos Dragon Core: 32x
+
+# Wireless Hatch More
+Lang.helper.local.lang=en_US
+Hatch.wireless.energy.name=%s %sA Wireless Energy Hatch
+Hatch.wireless.dynamo.name=%s %sA Wireless Dynamo Hatch
+
+# Machine InfoData
+Machine.InfoData.EuModifier=Eu Modifier
+Machine.InfoData.SpeedMultiplier=Speed Multiplier
+Machine.InfoData.Parallel=Parallel
+Hatch.InfoData.desc.wireless.1=Stores energy globally in a network, up to 2^(2^31) EU.
+Hatch.InfoData.desc.wireless.2=Does not connect to wires. This block withdraws EU from the network.
+Hatch.InfoData.desc.wireless.3=Throughput:
+
+# Chat In Game
+chat.nhutilities.1=It seems like nothing happened...
+chat.nhutilities.2=You feel like you've left all your worries behind
+chat.nhutilities.3=Something heavy has left...
+
+GT5U.machines.isnewtexture=Is new texture?
+
+# Wireless Covers
+item.WirelessCoverItem.1.name=Wireless Dynamo Cover(LV)
+item.WirelessCoverItem.2.name=Wireless Dynamo Cover(MV)
+item.WirelessCoverItem.3.name=Wireless Dynamo Cover(HV)
+item.WirelessCoverItem.4.name=Wireless Dynamo Cover(EV)
+item.WirelessCoverItem.5.name=Wireless Dynamo Cover(IV)
+item.WirelessCoverItem.6.name=Wireless Dynamo Cover(LuV)
+item.WirelessCoverItem.7.name=Wireless Dynamo Cover(ZPM)
+item.WirelessCoverItem.8.name=Wireless Dynamo Cover(UV)
+item.WirelessCoverItem.9.name=Wireless Dynamo Cover(UHV)
+item.WirelessCoverItem.10.name=Wireless Dynamo Cover(UEV)
+item.WirelessCoverItem.11.name=Wireless Dynamo Cover(UIV)
+item.WirelessCoverItem.12.name=Wireless Dynamo Cover(UMV)
+item.WirelessCoverItem.13.name=Wireless Dynamo Cover(UXV)
+item.WirelessCoverItem.14.name=Wireless Dynamo Cover(MAX)
+
+item.WirelessCoverItem.15.name=Wireless Energy Cover(LV)
+item.WirelessCoverItem.16.name=Wireless Energy Cover(MV)
+item.WirelessCoverItem.17.name=Wireless Energy Cover(HV)
+item.WirelessCoverItem.18.name=Wireless Energy Cover(EV)
+item.WirelessCoverItem.19.name=Wireless Energy Cover(IV)
+item.WirelessCoverItem.20.name=Wireless Energy Cover(LuV)
+item.WirelessCoverItem.21.name=Wireless Energy Cover(ZPM)
+item.WirelessCoverItem.22.name=Wireless Energy Cover(UV)
+item.WirelessCoverItem.23.name=Wireless Energy Cover(UHV)
+item.WirelessCoverItem.24.name=Wireless Energy Cover(UEV)
+item.WirelessCoverItem.25.name=Wireless Energy Cover(UIV)
+item.WirelessCoverItem.26.name=Wireless Energy Cover(UMV)
+item.WirelessCoverItem.27.name=Wireless Energy Cover(UXV)
+item.WirelessCoverItem.28.name=Wireless Energy Cover(MAX)
