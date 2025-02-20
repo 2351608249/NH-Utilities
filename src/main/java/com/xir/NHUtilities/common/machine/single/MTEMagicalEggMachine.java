@@ -291,7 +291,7 @@ public class MTEMagicalEggMachine extends MTEBasicGenerator {
     @Override
     public boolean onWireCutterRightClick(ForgeDirection side, ForgeDirection wrenchingSide, EntityPlayer aPlayer,
         float aX, float aY, float aZ, ItemStack aTool) {
-        if (mTier >= 9 && getBaseMetaTileEntity().isServerSide()) {
+        if (mTier >= 1 && getBaseMetaTileEntity().isServerSide()) {
             isWirelessMode = !isWirelessMode;
             GTUtility.sendChatToPlayer(aPlayer, "Wireless Mode: " + (isWirelessMode ? "On" : "Off"));
         }
